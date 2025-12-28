@@ -287,15 +287,3 @@ GitHub Actions workflow (`.github/workflows/ci.yml`):
 - **Median latency** (GET /tasks): ~45ms (local, with cache)
 - **Monthly cost** (AWS ECS + RDS + ECR): ~$50–100 depending on instance sizing
 
-## Roadmap
-
-- [ ] Calendar view and reminders
-- [ ] OAuth (Google) via Auth0
-- [ ] Team workspaces and shared projects
-- [ ] Mobile PWA
-- [ ] Advanced scheduling (timeboxing, calendar sync)
-- [ ] Slack integration
-
-## License
-
-MIT
