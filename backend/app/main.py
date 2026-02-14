@@ -6,13 +6,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from prometheus_client import Counter, Histogram, generate_latest, CollectorRegistry, REGISTRY
 import time
 
-from app.config import get_settings, setup_logging
+from app.config import get_settings
 from app.deps import init_db
 from app.routers import auth, tasks, projects, ai
 from app.schemas import HealthResponse
 
 settings = get_settings()
-setup_logging()
+
 logger = logging.getLogger(__name__)
 
 # Initialize database
